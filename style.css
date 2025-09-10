@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Title / Heading Styling */
+header h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  margin: 0;
+  padding: 10px;
+}
+
+/* Subtitle below the title */
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+/* Header background */
+header {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+nav {
+  background: #0d47a1;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  background: #1565c0;
+}
+
+/* Footer */
+footer {
+  background: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
